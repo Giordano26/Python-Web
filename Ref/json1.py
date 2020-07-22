@@ -10,6 +10,6 @@ data = '''{
     }
 }'''
 
-info = json.loads(data)
-print('Name:', info["name"])
-print('Hide:',info["email"]["hide"])
+info = json.loads(data)#parses data from json
+print('Name:', info["name"])#gets the json info from name
+print('Hide:',info["email"]["hide"])#gets the json detail from email 
